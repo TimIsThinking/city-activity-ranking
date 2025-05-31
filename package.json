@@ -1,0 +1,23 @@
+{
+  "name": "@city-activity-ranking/root",
+  "private": true,
+  "description": "Monorepo for the city activity ranking project",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimIsThinking/city-activity-ranking.git"
+  },
+  "author": "Tim Howard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimIsThinking/city-activity-ranking/issues"
+  },
+  "homepage": "https://github.com/TimIsThinking/city-activity-ranking#readme",
+  "workspaces": [
+    "apps/*",
+    "services/*"
+  ],
+  "packageManager": "yarn@4.9.1"
+}

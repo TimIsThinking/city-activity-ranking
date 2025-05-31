@@ -1,0 +1,6 @@
+{
+  "name": "@city-activity-ranking/ranking-server",
+  "version": "0.1.0",
+  "description": "Server that intakes city names and responds with a ranking of various activities at that location based on the weather",
+  "packageManager": "yarn@4.9.1"
+}

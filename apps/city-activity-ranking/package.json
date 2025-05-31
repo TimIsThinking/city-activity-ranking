@@ -1,0 +1,6 @@
+{
+  "name": "@city-activity-ranking/app",
+  "version": "0.1.0",
+  "description": "React app allowing a user to input a city name and receive rankings for various activities",
+  "packageManager": "yarn@4.9.1"
+}
