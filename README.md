@@ -114,3 +114,7 @@ I used AI in multiple way during this project
 - Cache
 
     Say we were to deploy this service in production which started to receive thousands of visitors. Many of these visitors will be making requests for the same activities on the same days. Instead of making API requests to Mateo for every single user, a cache could be put in place to store requests and serve those instead. This would reduce the amount of time required to calculate scores after 1 calculation has taken place and reduce the number of API requests made to the 3rd party API, which could save cost.
+
+- Environment variables / git secret
+
+    Since this project contains no secret values I saw no need to add this complexity. Though I do think it would be a good idea to create this for the Mateo API base URL in future.
