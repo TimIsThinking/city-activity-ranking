@@ -10,25 +10,29 @@ This project has two parts, a react website located in apps/city-activity-rankin
 
     https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating
 
-2. Use nvm to install the specified node version
+2. Use nvm to use the specified node version or install it if missing
 
     `nvm use`
 
-2. Install corepack to enable package manager installs
+    `nvm install`
+
+3. Install corepack to enable package manager installs
 
     `npm install -g corepack`
 
-3. Run yarn to make sure it is installed and install dependencies
+4. Run yarn to make sure it is installed and install dependencies
 
     `yarn`
 
-4. Start the activity-ranking server
+5. Start the activity-ranking server
 
-    `yarn start-server`
+    `yarn start:server`
 
-5. Start the react app
+6. Start the react app
 
-    `yarn start-react-app`
+    `yarn start:react-app`
+
+7. Navigate to [http://localhost:5173/](http://localhost:5173/)
 
 ## Architectue
 
